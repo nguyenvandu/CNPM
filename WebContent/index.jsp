@@ -31,8 +31,17 @@
 	<section id="showcase">
 		<div class="container">
 			<h1 style="color:#fff">Hello</h1>
+			
+			
+			<h3 style="color:#fff"><% String name = request.getAttribute("name").toString();
+				out.print("Name: " + name);%></h3>
+			
 			<h3 style="color:#fff"><% String id = request.getAttribute("id").toString();
 				out.print("Id: " + id);%></h3>
+				
+				
+				
+				
 			<p style="color:#fff">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, velit repellendus necessitatibus vel nisi iste reprehenderit illo </p>
 		</div>
 	</section>

@@ -36,6 +36,7 @@ public class LoginFacebookServlet extends HttpServlet {
 		} else {
 			String accessToken = RestFB.getToken(code);
 			User user = RestFB.getUserInfo(accessToken);
+			request.setAttribute("name", user.getName());
 			request.setAttribute("id", user.getId());
 			RequestDispatcher dis = request.getRequestDispatcher("index.jsp");
 			dis.forward(request, response);
