@@ -62,7 +62,7 @@
 				</div>
 
 				<div class="flex-c p-b-112">
-					<a href="https://www.facebook.com/dialog/oauth?client_id=419756105478494&redirect_uri=https://localhost:8443/Login-Project/login-facebook" class="login100-social-item">
+					<a href="https://www.facebook.com/dialog/oauth?client_id=419756105478494&redirect_uri=https://localhost:8443/CNPM/login-facebook" class="login100-social-item">
 						<i class="fa fa-facebook-f"></i>
 					</a>
 
